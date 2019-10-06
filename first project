@@ -1,0 +1,10 @@
+
+cents=int(input("Please enter the change in Cents:  "))
+
+
+Quarters= int (cents/25)#25cents=1 Quarter
+
+Dime = int (cents%25/10)# 10 cents = 1 Dime
+
+Cents=(cents%25)% 10
+print(Quarter, "quarters" , Dime, "dimes and",cents, "cents")
